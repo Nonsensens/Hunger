@@ -173,9 +173,11 @@
     margin-top: -80px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.logo img{
-    
+
+.logos img{
+    margin-bottom: 20px;
 }
+
 .body_main_button_end {
 }
 @media (max-width:1490px){
@@ -221,6 +223,10 @@
         text-align: center;
          margin-top: -390px;
      }
+     .body_main {
+        padding:0 10px;
+    }
+    
 }
 @media (max-width:1205px) {
     .body_main_maik h1{
