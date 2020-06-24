@@ -171,6 +171,7 @@
     cursor: pointer;
     float: right;
     margin-top: -80px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .logo img{
     
