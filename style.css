@@ -226,6 +226,9 @@
     .body_main_maik h1{
         font-size: 46px;
         
+    } 
+    .logo img{
+        padding-top: 0;
     }
     .button_body_main1 {
         cursor: pointer;
