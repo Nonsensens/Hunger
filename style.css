@@ -372,13 +372,17 @@
     width: 100%;
     height: auto;
 }
+@media (max-width:1060px){
+    .about_us_text{
+        padding-top: 90px;
+    }
+}
 @media (max-width:1110px){
     .wrapper_about_us{
         flex-direction: column;
         text-align: center;
     }
     .about_us_text {
-        padding-top: 215px;
         padding-right: 6px;
         padding-left: 6px;
         max-width: 600px;
