@@ -366,9 +366,24 @@
     border-radius: 50px;
 }
 .about_us_img {
+    margin-top: 30px;
 }
 .about_us_img img{
     width: 100%;
+    height: auto;
+}
+@media (max-width:1110px){
+    .wrapper_about_us{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about_us_text {
+        padding-top: 215px;
+        padding-right: 6px;
+        padding-left: 6px;
+        max-width: 600px;
+        margin:  0 auto;
+    }
 }
 
 
