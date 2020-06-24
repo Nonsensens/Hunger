@@ -10,12 +10,7 @@
     background-image: url('img/header-bg.jpg');
     background-position: center;
     background-size: cover;
-    
-    position: absolute;
-    top:0;
-    left:0;
-    right: 0;
-    bottom:0;
+    padding-bottom: 507px;
 }
 .body_header { 
     padding-bottom: 150px;
@@ -47,7 +42,6 @@
 .first_spisok li:last-child{
     margin-right: 0;
 }
-
 .logo {
 }
 .logo img{
@@ -77,7 +71,6 @@
 .ban_ul li:hover{
     border-bottom: 2px solid rgb(117, 113, 113);
 }
-
 .body_main {
     padding:0 80px;
 }
@@ -100,7 +93,7 @@
 }
 .body_main_maik {
    text-align: center;
-    margin-top: -490px;
+    margin-top: -390px;
 }
 .body_main_maik h1{
     font-size: 96px;
@@ -126,7 +119,6 @@
     background: #E8C300;
     border-radius: 50px;
 }
-
 .button_body_main1 {
     margin-right: 40px;
     cursor: pointer;
@@ -173,11 +165,9 @@
     margin-top: -80px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 .logos img{
     margin-bottom: 20px;
 }
-
 .body_main_button_end {
 }
 @media (max-width:1490px){
@@ -196,6 +186,7 @@
         font-size: 30px;
         
     }
+}
 @media (max-width:1490px){
     .navi{
         margin: 0 15px;
@@ -286,6 +277,11 @@
         text-align: center;
          margin-top: -227px;
      }
+    
+    .body{
+        padding-bottom: 330px;
+    }
+
     .body_main_maik h1{
         font-size: 26px;
         
@@ -324,3 +320,37 @@
         width: 35px;
     }
 }
+
+.about_us {
+}
+.wrapper_about_us {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.about_us_text {
+}
+.line_about_us_text {
+}
+.about_us_img {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
