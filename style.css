@@ -481,6 +481,32 @@
 
 
 
+.book {
+}
+.wrapper_book {
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex ;
+    justify-content: center;
+}
+.forma {
+    text-align: center;
+}
+.line_main {
+}
+.row_text_book {
+}
+.row_text_book2 {
+}
+.row_text_book3 {
+}
+.img_book {
+}
+.book_bottom {
+}
+
+
+
 
 
 
