@@ -401,13 +401,83 @@
         text-align: center;
     }
     .about_us_text {
-        padding-right: 6px;
-        padding-left: 6px;
+        padding-right: 15px;
+        padding-left: 15px;
         max-width: 600px;
         margin:  0 auto;
     }
 }
 
+
+
+.our_team {
+    background-image: url('img/specialty\'s-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our_team_h{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top:35px;
+    margin-bottom: -14px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+.wrapper_our_team {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+}
+.img_our_team {
+}
+.img_our_team img{
+    width: 100%;
+}
+.text_our_team {
+    padding-top: 217px;
+    text-align: center;
+    max-width: 600px;
+}
+.text_our_team h1{
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.text_our_team h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 25px;
+}
+.text_our_team p{
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.651);
+}
+.line_main {
+}
+@media (max-width:1110px){
+    .wrapper_our_team {
+        padding-top: 100px;
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .our_team_h{
+        margin-bottom: -80px;
+    }
+    .text_our_team{
+        padding:0 15px;
+    }
+}
 
 
 
