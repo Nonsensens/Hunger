@@ -1,0 +1,217 @@
+@charset "UTF-8";
+.slider {
+  background-image: url("../img/specialty's-bg (1).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.slider_text {
+  padding-top: 30px;
+  text-align: center;
+}
+.slider_text h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.slider_row {
+  display: flex;
+}
+
+.slider_row_img img {
+  width: 100%;
+}
+
+.slider_row_text {
+  padding-top: 170px;
+  max-width: 600px;
+  text-align: center;
+}
+.slider_row_text h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.slider_row_text h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+}
+.slider_row_text p {
+  margin: 0 auto;
+  line-height: 18px;
+  max-width: 400px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 1250px) {
+  .slider_row {
+    flex-direction: column;
+  }
+  .slider_row .slider_row_text {
+    padding: 0 15px;
+    margin-bottom: 35px;
+  }
+}
+.slick-slider {
+  border: none;
+  outline: none;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+  border: none;
+  outline: none;
+}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+  border: none;
+  outline: none;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+  border: none;
+  outline: none;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  border: none;
+  outline: none;
+}
+
+/* Слайд */
+.slick-slide {
+  border: none;
+  outline: none;
+}
+
+/* Слайд активный (показывается) */
+/* Стрелка */
+/* Точки (булиты) */
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.slick-dots li {
+  list-style: none;
+  margin-bottom: 90px;
+}
+
+/* Активная точка */
+.slick-dots li.slick-active button {
+  font-size: 0;
+  width: 11px;
+  outline: none;
+  height: 11px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+/* Элемент точки */
+.slick-dots li button {
+  outline: none;
+  border-radius: 50%;
+  font-size: 0;
+  width: 11px;
+  height: 11px;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.5;
+  border: none;
+  margin-right: 10px;
+}
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/

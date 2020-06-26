@@ -7,19 +7,22 @@ $mail->CharSet = 'utf-8';
 $name = $_POST['name'];
 $phone = $_POST['Phone'];
 $email = $_POST['Email'];
+$name = $_POST['Time'];
+$phone = $_POST['Date'];
+$email = $_POST['People'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp-relay.gmail.com';  																							// Specify main and backup SMTP servers
+$mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'yarygi66@gmail.com'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = '1876sukuaA'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'nonsenses01@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = '1986sukuaA'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('yarygi66@gmail.com'); // от кого будет уходить письмо?
-$mail->addAddress('yarygi66@gmail.com');     // Кому будет уходить письмо 
+$mail->setFrom('nonsenses01@mail.ru'); // от кого будет уходить письмо?
+$mail->addAddress('nonsenses01@mail.ru');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -29,10 +32,12 @@ $mail->addAddress('yarygi66@gmail.com');     // Кому будет уходит
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
-$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email;
+$mail->Body    = '' .$name . ' оставил заявку, его телефон ' .$phone. '<br>Почта этого пользователя: ' .$email. '<br>Дата: ' .$Date. '<br>Время: ' .$Time. '<br>Кол-во людей: ' .$People;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
     echo 'Error';
-} 
+} else {
+    header('location: index.html');
+}
 ?>
