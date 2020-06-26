@@ -26,6 +26,7 @@
 .line_main {
 }
 .formachka {
+    margin: 0 15px;
     textarea{
         display: flex;
         justify-content: center;
@@ -56,6 +57,7 @@
 .bottom_row_contact {
     padding-top: 25px;
     display: flex;
+    margin: 0 15px;
 }
 .mini_row_bottom_contact {
     display: flex;
@@ -64,17 +66,35 @@
         font-style: normal;
         font-weight: 900;
         font-size: 14px;
+        max-width: 1600px;
         color:#6b6a6a;
         padding-right: 20px;
-        &:last-of-type{
-            padding-right: 50px;
-        }
     }
 }
+.last_h{
+    
+}
 .but_contact {
-    padding: 15px 610px;
+    width: 60%;
+    padding: 24px 0;
     margin-bottom: 0px;
     background: #E8C300;
     border-radius: 5px;
-    color:#ffff
+    color:#ffff;
+    text-transform: uppercase;
+}
+
+@media (max-width:690px){
+    .row_formachka{
+        flex-direction: column;
+        input{
+            width: 90%;
+        }
+        .mini_row_bottom_contact h2{
+            font-size: 11px;
+        }
+        .bottom_row_contact{
+            flex-direction: column;
+        }
+    }
 }

@@ -364,6 +364,9 @@ footer span {
   padding-bottom: 50px;
 }
 
+.formachka {
+  margin: 0 15px;
+}
 .formachka textarea {
   display: flex;
   justify-content: center;
@@ -395,6 +398,7 @@ footer span {
 .bottom_row_contact {
   padding-top: 25px;
   display: flex;
+  margin: 0 15px;
 }
 
 .mini_row_bottom_contact {
@@ -405,17 +409,32 @@ footer span {
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
+  max-width: 1600px;
   color: #6b6a6a;
   padding-right: 20px;
 }
-.mini_row_bottom_contact h2:last-of-type {
-  padding-right: 50px;
-}
 
 .but_contact {
-  padding: 15px 610px;
+  width: 60%;
+  padding: 24px 0;
   margin-bottom: 0px;
   background: #E8C300;
   border-radius: 5px;
   color: #ffff;
+  text-transform: uppercase;
+}
+
+@media (max-width: 690px) {
+  .row_formachka {
+    flex-direction: column;
+  }
+  .row_formachka input {
+    width: 90%;
+  }
+  .row_formachka .mini_row_bottom_contact h2 {
+    font-size: 11px;
+  }
+  .row_formachka .bottom_row_contact {
+    flex-direction: column;
+  }
 }
