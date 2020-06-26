@@ -426,6 +426,10 @@ footer span {
   border-radius: 5px;
   color: #ffff;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.but_contact:hover {
+  color: #000;
 }
 
 @media (max-width: 690px) {
