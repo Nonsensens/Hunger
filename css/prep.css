@@ -260,3 +260,78 @@
     width: 33px;
   }
 }
+.events {
+  background-image: url("../img/specialty's-bg (2).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 45px;
+}
+
+.wrapper_events {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.text_events h1 {
+  padding-top: 45px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.row_img_events {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1250px) {
+  .row_img_events {
+    flex-direction: column;
+  }
+
+  .img1_row_img_events img {
+    width: 100%;
+  }
+
+  .img2_row_img_events img {
+    width: 100%;
+  }
+}
+.end_events h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.row_galerie {
+  display: flex;
+}
+.row_galerie img {
+  width: 100%;
+}
+
+@media (max-width: 1450px) {
+  .row_galerie {
+    flex-direction: column;
+  }
+}
+footer {
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+footer h1 {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.144);
+}
+footer span {
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,18 @@
+.wrapper_events {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.text_events h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.row_img_events {
+  display: flex;
+}
