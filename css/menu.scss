@@ -1,0 +1,115 @@
+.menu {
+}
+.wrapper_menu {
+    max-width: 1650px;
+    margin: 0 auto;
+}
+.menu_text {
+    h1{
+        margin-top: 100px;
+        text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    }
+    h2{
+        margin-bottom: 66px;
+        text-align: center;
+    }
+}
+.line_main {
+}
+.row_first_text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: #333333;
+        cursor: pointer;
+        &:hover{
+            color:red
+        }
+    }
+}
+.item_row_first_text {
+    display: flex;
+}
+.row_mini_item {
+    display: flex;
+}
+.polosa_menu {
+    width: 50px;
+    height: 0px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    transform: rotate(90deg);
+}
+.row_second_text {
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.item_row_second_text {
+    margin-right: 86px;
+    h1{
+        font-size: 18px;
+        color: #333333;
+    }
+    p{
+        font-size: 13px;
+        color: #3333335e;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.mini_item_row_second_text {
+}
+@media (max-width:750px){
+    .menu_text{
+        padding: 0 15px;
+    }
+    .row_first_text{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0px;
+        padding: 0 130px;
+        margin-right: -15px;
+        margin-bottom: -50px;
+        h3{
+            font-size: 16px;
+            padding-right: 10px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+        
+    }
+    .polosa_menu{
+        transform: rotate(0deg);
+    }
+    .row_mini_item {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .item_row_second_text{
+        margin-right: 15px;
+    }
+}
+@media (max-width:470px){
+    .row_first_text{
+        
+        margin-bottom: -60px;
+        h3{
+            font-size: 11px;
+        }
+        .polosa_menu {
+            width: 33px;
+            
+        }
+    }
+}
